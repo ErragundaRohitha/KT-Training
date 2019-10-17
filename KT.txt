@@ -1,0 +1,26 @@
+KT topic(16 Oct):
+
+1. Technologies used in Walmart:
+Spring Boot, Spring JDBC, Hibernate -(Backend)
+DB & Oracle -(Database)
+React JS-(Frontend)
+
+2. Flow of Backend code
+ Its similar to the microservices project.We are using Spring MVC model. We have model in which we use entity classes.
+ We have controller in which we are using services for required functionality. In view we are using angular or jsp.
+ We are also using sql queries separately where we can call the queries directly in the code.
+
+3. Build and deployment
+ We have many stages of build and deployment. The 3 stages are QA(Quality Testing), Stage (level greater than QA and less than prod),prod(reviewer code check).
+
+
+
+4. We have a git hub repository in which we have diferent branches, we have master development branch and support and many more department branches.
+5. If we are changing any part of code and we want to reflect that code in the main code we need to follow the following steps:
+1. We need to create new branch under master branch and commit the changes done. Then we have to pull the requests by tagging the reviewers. If the code is perfect they will accept it or they may reject  & give suggestions through comments.
+2. Once the code is approved we can merge the code using merge code option.
+3. Now using the github URL in the looper. If the code is clean the looper will generate the JAR file
+4. Now add the jar file to the ONEOPS and request for QA & stage using develepment branch and prod using master branch.
+5. Now you can see the changes in the main code.
+
+ 
