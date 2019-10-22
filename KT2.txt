@@ -1,0 +1,21 @@
+KT topics (21/10/2019)
+These topics ere covered in yesterday KT:
+1. We have seen the flow from UI to database.
+2. We have learned about the frontend technology used in Walmart(React JS)
+3. We have learned the components in React JS.
+In React JS there is component, action, reducer, CSS and JEst file.
+Component- We will write the HTMl code.
+Action- We will write the logic
+Reducer - It is used for memory sync btw db and backend
+CSS- for Styling
+Jest file- For testing.
+
+The reducer maintains the synchronization between the backend database and the frontend, even if the service requests fails the data is not lost, it can be reverted back or it can be null. It depends on the logic written in the reducer file. It uses reduction storage of the React JS.
+
+4. We have learned the BIG DATA concept.
+Hadoop/cluster, Spark, Hive.
+
+
+
+
+ 
